@@ -1,0 +1,10 @@
+def greeting(Roll_No,Student_Name,Marks,School_Name):
+    print(f"Roll_No={Roll_No}")
+    print(f"Student_Name={Student_Name}")
+    print(f"Total_marks={sum(Marks)}")
+    print(f"Percentage={round(sum(Marks)/len(Marks),2)}")
+    print(f"School_Name={School_Name}")
+
+greeting(22,"saad",[56,76,87,65,89,56],("ATT High School"))
+greeting(23,"asad",[56,86,87,85,89,96],("ATT High School"))
+
