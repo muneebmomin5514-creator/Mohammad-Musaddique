@@ -1,0 +1,15 @@
+str1=" Momin Mohammad Musaddique"
+str2="Mohammad Saquib"
+str3="<Momin Sharique Anjum"
+str4="Momin Saad"
+str5="Rahmani Tamseel"
+
+def largeststr(s1,s2,s3,s4,s5):
+    mystr={s1:len(s1),s2:len(s2),s3:len(s3),s4:len(s4),s5:len(s5)}
+    maximum=max(list(mystr.values()))
+    for m in mystr.items():
+        if m[1]>=maximum:
+            return m[0] 
+
+print(len(str1))
+print(largeststr(str1,str2,str3,str4,str5))
